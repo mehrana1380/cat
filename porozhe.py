@@ -1,21 +1,12 @@
 class Cat:
-    name=""
-    age= 0
-    color=""
+    def __init__(self,name,age,color):
+        self.name= name
+        self.age= age
+        self.color= color
 
-    def hello():
-        print("miav miav")
 
-tadi=Cat()
-tadi.name="alfred"
-tadi.age=7
-tadi.color="black"
+tadi= Cat("tadi",1,"wait")
 
-rex=Cat()
-rex.name="rex"
-rex.age=2
-rex.color="with"
-
-print(rex.name)
-
-tadi.hello()
+print(tadi.name)
+print(tadi.age)
+print(tadi.color)
